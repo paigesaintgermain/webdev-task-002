@@ -1,0 +1,79 @@
+@import url("reset.css");
+
+
+body {
+   padding: 2rem;
+}
+
+
+header,
+footer,
+aside,
+article,
+.column {
+   padding: 2rem;
+   border: 2px solid #333;
+   margin: 2rem auto;
+   border-radius: 0.25rem;
+   background-color: pink;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+
+.asideOne {
+   background-color: blue;
+}
+
+
+.asideTwo {
+   background-color: lightskyblue;
+}
+
+
+header {
+   background-color: purple;
+}
+
+
+article {
+   background-color: greenyellow;
+}
+
+
+footer {
+   background-color: orangered;
+}
+
+
+@media only screen and (min-width: 800px) {
+   body{
+       background-color: lightgray;
+   }
+
+
+   section {
+       display: flex;
+       flex-direction: row;
+   }
+
+
+   .col-container {
+       display: flex;
+       flex-direction: row;
+       gap: 1rem;
+   }
+
+
+   .asideOne {
+       width: 600px;
+   }
+  
+   .asideTwo {
+       width: 600px;
+   }
+
+
+}
